@@ -15,5 +15,5 @@ Instructions
 8. `vagrant ssh`
 9. `cd /vagrant/hasgeek` is where all hasgeek code base is located.
 10. Edit the settings.py and run `python server.py`.
-11. `username & password for database is hasgeek, hasgeek`
-12. All the databases are created.
+11. `username & password for postgres is hasgeek, hasgeek`
+12. `hacknight.local`, `hasgeek.tv.local`, `imgee.local`, `kharcha.local`, `hasjob.local` are added to `/etc/hosts`
