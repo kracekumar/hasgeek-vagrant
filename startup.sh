@@ -43,5 +43,6 @@ sudo -u postgres createdb imgee
 sudo -u postgres createdb peopleflow
 sudo -u postgres createdb contactpoint
 sudo -u postgres createdb kharcha
+sudo -u postgres createdb lastuser
 
 echo "SQLALCHEMY_DATABASE_URI in settings.py as 'postgres://hasgeek:hasgeek@localhost:5432/[dbname]'"
