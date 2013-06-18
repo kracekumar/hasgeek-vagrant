@@ -19,7 +19,7 @@ sudo pip install fabric
 
 echo "Installing RVM ..."
 curl -L https://get.rvm.io | bash -s stable
-source /home/vagrant/.rvm/scripts/rvm
+source /etc/profile.d/rvm.sh
 rvm requirements
 rvm install 1.9.3
 gem install compass
