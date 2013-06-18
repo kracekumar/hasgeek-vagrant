@@ -1,6 +1,6 @@
 Repo contains scripts to make hasgeek development with vagrant, vm easier.
 
-*Please don't clone this directory for setting up*
+**Please don't clone this directory for set up**
 
 Instructions
 -----
