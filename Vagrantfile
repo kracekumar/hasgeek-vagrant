@@ -25,7 +25,7 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 9000, host: 9000 #kharcha
 
   # Adding /etc/hosts entries, `vagrant plugin install vagrant-hostsupdater`
-  config.hostsupdater.aliases = ["hacknight.local", "hasgeek.tv.local", "imgee.local", "contactpoint.local", "kharcha.local", "hasjob.local"]
+  config.hostsupdater.aliases = ["hacknight.local", "hasgeek.tv.local", "imgee.local", "contactpoint.local", "kharcha.local", "hasjob.local", "lastuser.local"]
 
   # Enable provision with shell script
   config.vm.provision "shell", path: "startup.sh"
