@@ -14,6 +14,6 @@ Instructions
 # Everytime git clones a repo, passaphrase is prompted. It is annoying. Will be fixed in upcoming release
 8. `vagrant ssh`
 9. `cd /vagrant/hasgeek` is where all hasgeek code base is located.
-10. Edit the settings.py and run `python server.py`.
-11. `username & password for postgres is hasgeek, hasgeek`
+10. `sudo fab -f startup.py local vagrant install`
+11. Create new database user. `sudo -u postgres createuser -D -A -P hasgeek` with password `hasgeek`.
 12. `hacknight.local`, `hasgeek.tv.local`, `imgee.local`, `kharcha.local`, `hasjob.local` are added to `/etc/hosts`
