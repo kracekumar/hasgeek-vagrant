@@ -30,11 +30,6 @@ sudo apt-get install -y node-lessc
 echo "Installing postgress ..."
 sudo apt-get install -y postgresql postgresql-contrib python-psycopg2 libpq-dev build-essential
 
-echo "create new user hasgeek"
-psql -U postgres postgres <<OMG
-    create user hasgeek password hasgeek
-OMG
-
 echo "Creating new postgres database ..."
 sudo -u postgres createdb hasjob
 sudo -u postgres createdb hacknight
@@ -45,4 +40,7 @@ sudo -u postgres createdb contactpoint
 sudo -u postgres createdb kharcha
 sudo -u postgres createdb lastuser
 
-echo "SQLALCHEMY_DATABASE_URI in settings.py as 'postgres://hasgeek:hasgeek@localhost:5432/[dbname]'"
+echo "===="
+echo "create new postgres user with username hasgeek and password hasgeek"
+echo "sudo -u postgres createuser -D -A -P hasgeek'"
+echo "===="
