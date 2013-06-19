@@ -4,7 +4,7 @@ echo "Ubuntu update running..."
 sudo apt-get update
 
 echo "Installing git, curl, python-dev, openjdk-7, make, unzip ..."
-sudo apt-get install -y git curl python-dev openjdk-7-jre make unzip
+sudo apt-get install -y git curl python-dev openjdk-7-jre make unzip vim
 
 echo "Installing python distribute ..."
 curl -O http://python-distribute.org/distribute_setup.py
@@ -42,5 +42,5 @@ sudo -u postgres createdb lastuser
 
 echo "===="
 echo "create new postgres user with username hasgeek and password hasgeek"
-echo "sudo -u postgres createuser -D -A -P hasgeek'"
+echo "sudo -u postgres createuser -D -A -P hasgeek"
 echo "===="
