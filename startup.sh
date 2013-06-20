@@ -25,7 +25,7 @@ rvm install 1.9.3
 gem install compass
 
 echo "Installing lessc ..."
-sudo apt-get install -y node-lessc
+sudo apt-get install -y node-less
 
 echo "Installing postgress ..."
 sudo apt-get install -y postgresql postgresql-contrib python-psycopg2 libpq-dev build-essential
